@@ -1,0 +1,22 @@
+﻿<Window x:Class="TeamApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeamApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lbxAllplayers" HorizontalAlignment="Left" Height="218" Margin="117,102,0,0" VerticalAlignment="Top" Width="204"/>
+        <ListBox x:Name="lbxSelectedPlayers" HorizontalAlignment="Left" Height="218" Margin="482,102,0,0" VerticalAlignment="Top" Width="204"/>
+        <Button x:Name="btnAdd" Content="Add &gt;&gt;" HorizontalAlignment="Left" Margin="366,139,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnRemove" Content="&lt;&lt; Remove" HorizontalAlignment="Left" Margin="366,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="cbxFormation" HorizontalAlignment="Left" Margin="160,21,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label Content="Formation" HorizontalAlignment="Left" Margin="91,17,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="All Players" HorizontalAlignment="Left" Margin="117,76,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Selected Players" HorizontalAlignment="Left" Margin="482,76,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Spaces" HorizontalAlignment="Left" Margin="482,335,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tblkSpaces" HorizontalAlignment="Left" Margin="548,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
